@@ -309,32 +309,41 @@ finalReportButton.addEventListener("click", () => {
 
         // Send audio data to the server for transcription and report generation
        // Send audio data to the server for transcription and report generation
-function sendAudioToServer(audioBlob) {
+       function sendAudioToServer(audioBlob) {
     const formData = new FormData();
     formData.append("audio", audioBlob, "recorded_audio.wav");
 
-    fetch("/upload", {
+    fetch("/upload_audio", {
         method: "POST",
         body: formData
     })
-    .then(response => response.json())
+    .then(response => {
+        console.log('Server response status:', response.status);
+        
+        // Check if the response is valid JSON
+        if (response.ok && response.headers.get('Content-Type').includes('application/json')) {
+            return response.json();  // Parse JSON response
+        } else {
+            throw new Error('Expected JSON response but got something else');
+        }
+    })
     .then(data => {
-        console.log("Audio file uploaded and transcribed", data);
+        console.log("Audio file uploaded and transcribed:", data);
+
         if (data.transcription) {
             // Redirect to the new page once transcription is done
+            window.location.href = "/transcription-result-page";  // Example redirect
         } else {
-            
+            console.error("No transcription found in the response.");
+            // Handle missing transcription or errors in the data
         }
-         // Redirect to the report page
-
     })
-    
-
-
     .catch(error => {
         console.error("Error uploading audio:", error);
+        alert("An error occurred while uploading the audio file.");
     });
 }
+
 
 // Function to display the final report in the containerplayReport()
 
