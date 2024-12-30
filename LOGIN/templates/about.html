@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>TEAM BITbyBIT</h1>
+    <h2>This is us!</h2>
+        <div class="card">
+            <div class="logo-container">
+                <img src="{{ url_for('static', filename='/logo.png') }}" alt="Team Image" class="img-fluid rounded">
+            </div>
+            <div class="card-content">
+                <h3>Our Values</h3>
+            <p>
+                Our solution is committed to empowering candidates by providing the tools and resources they need to approach interviews with confidence and clarity.
+                It emphasizes personalization, offering tailored feedback, training, and simulations to address individual needs and goals. By focusing on realism and
+                relevance, the platform ensures candidates are prepared for real-world hiring challenges with up-to-date and practical experiences.
+            </p>
+        </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for ('home')}}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('upload') }}">Upload</a>
+       
+    </nav>
+
+    <div class="container">
+        {% if 'about' not in request.endpoint and 'upload' not in request.endpoint %}
+
+            <!-- Home Page Details -->
+            <div class="card">
+                <div class="logo-container">
+                    <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+                </div>
+                <div class="card-content">
+                    <h2>Empowering Recruiters for Effective Hiring</h2>
+                    <p>Our platform empowers recruiters by simulating realistic interviews to effectively evaluate candidate skills and fit. It provides detailed feedback reports and resume analysis, streamlining the assessment process to identify the most suitable talent. With targeted technical evaluations, recruiters gain insights into candidates' proficiency in key areas. This enhances hiring efficiency and ensures the selection of job-ready candidates with confidence.</p>
+                </div>
+            </div>
+        {% endif %}
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="messages">
+                    {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

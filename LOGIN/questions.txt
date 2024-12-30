@@ -1,0 +1,23 @@
+Here are 4-5 sample questions for a Software Engineer position, with a moderate level of difficulty:
+
+**Question 1:**
+
+Design an algorithm to find the closest pair of points in a set of n points in 2D space, where each point is represented by its x and y coordinates. Your solution should have a time complexity of O(n log n).
+
+**Question 2:**
+
+Consider a web application that uses a relational database management system. What are the trade-offs between using an index on a column versus creating a composite index on multiple columns? Provide specific examples to support your answer.
+
+**Question 3:**
+
+Suppose you are given a large dataset of customer purchase history, with each row representing a customer's purchase. Write a Python script to identify the top 10 customers who have spent the most money overall. You may assume that the dataset is stored in a Pandas DataFrame.
+
+**Question 4:**
+
+A mobile app uses a reactive UI framework to update the display in real-time. However, upon loading a large dataset, the app experiences significant lag and crashes occasionally. Suggest a solution to improve the app's performance, taking into account factors such as memory usage, network traffic, and UI rendering.
+
+**Question 5:**
+
+Consider a microservices-based architecture where multiple services communicate with each other using RESTful APIs. How would you design a circuit breaker pattern to handle service failures and prevent cascading failures in the system? Justify your design choice with a brief explanation.
+
+These questions assess the candidate's problem-solving skills, technical knowledge, and ability to think critically about software engineering principles and design trade-offs.

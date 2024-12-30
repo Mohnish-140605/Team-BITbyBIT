@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Video and Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            height: 90vh;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:disabled {
+            background-color: #cccccc;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        select {
+            padding: 12px 20px;
+            margin-top: 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #questionsContainer {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            min-height: 150px;
+        }
+
+        .question {
+            background-color: #e9f7ef;
+            margin: 10px 0;
+            padding: 12px 20px;
+            border-radius: 5px;
+            border: 1px solid #d0f0c0;
+        }
+
+        .error {
+            color: red;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Style for the report section */
+        .report-container {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            min-height: 150px;
+        }
+
+        #reportDisplay {
+            white-space: pre-wrap;  /* Preserve formatting */
+            word-wrap: break-word;
+            padding: 10px;
+            background-color: #f4f7fc;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Record Video and Audio</h1>
+
+        <!-- Role Selection Section -->
+        <h2>Select Role</h2>
+        <select id="roleDropdown">
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="Web Development">Web Development</option>
+        </select>
+        <button id="generateButton">Generate Questions</button>
+
+        <h2>Generated Questions</h2>
+        <div id="questionsContainer"></div>
+
+        <!-- Video and Audio Recording Section -->
+        <div class="video-container">
+            <video id="videoElement" autoplay></video>
+        </div>
+        <button id="startRecording">Start Recording</button>
+        <button id="stopRecording" disabled>Stop Recording</button>
+
+        <h2>Recorded Audio File</h2>
+        <audio id="audioPlayer" controls disabled></audio>
+
+        <!-- Report Section -->
+         <!-- Add this button for the final report -->
+        
+
+        <h2>Generated Report</h2>
+        <button id="finalReportButton">Generate Final Report</button>
+        <div id="reportContainer" class="report-container">
+            <pre id="reportDisplay">No report generated yet.</pre>
+        </div>
+
+
+    </div>
+
+    <script>
+        let mediaRecorder;
+        let audioChunks = [];
+        let videoElement = document.getElementById("videoElement");
+        let audioPlayer = document.getElementById("audioPlayer");
+        let startButton = document.getElementById("startRecording");
+        let stopButton = document.getElementById("stopRecording");
+        let roleDropdown = document.getElementById("roleDropdown");
+        let generateButton = document.getElementById("generateButton");
+        let questionsContainer = document.getElementById("questionsContainer");
+        let reportContainer = document.getElementById("reportContainer");
+        let reportDisplay = document.getElementById("reportDisplay");
+        let finalReportButton = document.getElementById("finalReportButton");
+
+
+        // Access user's webcam and microphone
+        navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+            .then(stream => {
+                videoElement.srcObject = stream;
+                mediaRecorder = new MediaRecorder(stream);
+
+                // Capture audio chunks
+                mediaRecorder.ondataavailable = event => {
+                    audioChunks.push(event.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    const audioUrl = URL.createObjectURL(audioBlob);
+                    audioPlayer.src = audioUrl;
+
+                    // Send audio to the server for transcription
+                    sendAudioToServer(audioBlob);
+                };
+            })
+            .catch(err => {
+                console.log("Error accessing media devices:", err);
+            });
+
+        // Start recording
+        startButton.addEventListener("click", () => {
+            mediaRecorder.start();
+            startButton.disabled = true;
+            stopButton.disabled = false;
+            audioPlayer.disabled = false;
+        });
+
+        // Stop recording
+        stopButton.addEventListener("click", () => {
+            mediaRecorder.stop();
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            audioPlayer.disabled = true;
+        });
+
+        // Handle the Generate button click for generating questions
+        generateButton.addEventListener("click", () => {
+            const selectedRole = roleDropdown.value;
+
+            // Send the selected role to the backend
+            fetch("/handle_role", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ role: selectedRole }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Check if the 'questions' key is available and is an array
+                if (data.questions && Array.isArray(data.questions)) {
+                    displayQuestions(data.questions);
+                } else {
+                    displayQuestions([]);
+                    console.error("Error: Received invalid data structure for questions.");
+                }
+            })
+            .catch(error => {
+                console.error("Error handling role:", error);
+                alert("An error occurred while handling the role.");
+            });
+        });
+
+        // Function to display the questions in the container
+        function displayQuestions(questions) {
+            questionsContainer.innerHTML = ''; // Clear previous questions
+            if (questions.length > 0) {
+                questions.forEach(question => {
+                    const questionElement = document.createElement('p');
+                    questionElement.classList.add('question');
+                    questionElement.textContent = question;
+                    questionsContainer.appendChild(questionElement);
+                });
+            } else {
+                questionsContainer.innerHTML = '<p>No questions generated.</p>';
+            }
+        }
+        // Get the final report button element
+
+
+// Event listener for final report button
+finalReportButton.addEventListener("click", () => {
+        // Send a request to generate the final report
+        fetch("/generate_final_report", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Check if the 'report' key is available
+            if (data.report) {
+                // Get the report container and display elements
+                let reportContainer = document.getElementById("reportContainer");
+                let reportDisplay = document.getElementById("reportDisplay");
+
+                // Set the report text inside the reportDisplay element
+                reportDisplay.textContent = data.report;
+
+                // Make the report container visible (if it was hidden before)
+                reportContainer.style.display = "block";
+            } else {
+                console.error("Error: Received invalid data structure for final report.");
+            }
+        })
+        .catch(error => {
+            console.error("Error handling final report:", error);
+            alert("An error occurred while generating the final report.");
+        });
+ 
+});
+
+
+        // Send audio data to the server for transcription and report generation
+       // Send audio data to the server for transcription and report generation
+function sendAudioToServer(audioBlob) {
+    const formData = new FormData();
+    formData.append("audio", audioBlob, "recorded_audio.wav");
+
+    fetch("/upload", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Audio file uploaded and transcribed", data);
+        if (data.transcription) {
+            // Redirect to the new page once transcription is done
+        } else {
+            
+        }
+         // Redirect to the report page
+
+    })
+    
+
+
+    .catch(error => {
+        console.error("Error uploading audio:", error);
+    });
+}
+
+// Function to display the final report in the containerplayReport()
+
+        
+    </script>
+</body>
+</html>

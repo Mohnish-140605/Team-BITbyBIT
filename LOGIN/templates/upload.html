@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container file-upload-container">
+    <h1>Upload your Resume (PDF)</h1>
+    <form action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data" id="uploadForm">
+        <!-- File Input -->
+        <input type="file" name="file" required>
+        
+        <!-- Dropdown for selecting Job Board -->
+        <label for="job-board">Select Job Board</label>
+        <select name="job_board" id="job-board" required>
+            <option value="naukri">Naukri</option>
+            <option value="careerjet">CareerJet</option>
+        </select>
+
+        <input type="submit" value="Upload" id="uploadButton">
+    </form>
+
+    {% if content %}
+    <div class="container">
+        <h1>Job Listings</h1>
+        <div id="jobCards" class="row">
+            <!-- Cards will be populated here by JavaScript -->
+        </div>
+        <!-- Button to redirect to mock.html -->
+        <div class="text-center mt-4">
+            <button id="redirectButton" class="btn btn-secondary">Go to Mock</button>
+        </div>
+    </div>
+
+    <script>
+        fetch('{{ url_for("static", filename="job_data.json") }}')  // Assuming job data is saved in a JSON file
+            .then(response => response.json())  // Parse as JSON
+            .then(data => {
+                const jobCardsContainer = document.getElementById("jobCards");
+
+                data.forEach(job => {
+                    const card = document.createElement("div");
+                    card.classList.add("col-md-4", "card", "m-3");
+
+                    const cardBody = document.createElement("div");
+                    cardBody.classList.add("card-body");
+
+                    const jobTitle = document.createElement("h5");
+                    jobTitle.classList.add("card-title");
+                    jobTitle.textContent = job.title;
+
+                    const jobCompany = document.createElement("p");
+                    jobCompany.classList.add("card-text");
+                    jobCompany.textContent = `Company: ${job.company}`;
+
+                    const jobLocation = document.createElement("p");
+                    jobLocation.classList.add("card-text");
+                    jobLocation.textContent = `Location: ${job.location}`;
+
+                    const jobExperience = document.createElement("p");
+                    jobExperience.classList.add("card-text");
+                    jobExperience.textContent = `Experience: ${job.experience}`;
+
+                    const jobLink = document.createElement("a");
+                    jobLink.href = job.job_link;
+                    jobLink.classList.add("btn", "btn-primary");
+                    jobLink.textContent = "View Job";
+                    jobLink.target = "_blank";
+
+                    // Add the compatibility score
+                    const jobCompatibility = document.createElement("p");
+                    jobCompatibility.classList.add("card-text");
+                    jobCompatibility.textContent = `Compatibility: ${job.Compatability}%`;
+
+                    cardBody.appendChild(jobTitle);
+                    cardBody.appendChild(jobCompany);
+                    cardBody.appendChild(jobLocation);
+                    cardBody.appendChild(jobExperience);
+                    cardBody.appendChild(jobLink);
+                    cardBody.appendChild(jobCompatibility);  // Append the compatibility score
+                    card.appendChild(cardBody);
+                    jobCardsContainer.appendChild(card);
+                });
+
+                // Add functionality to the redirect button
+                const redirectButton = document.getElementById("redirectButton");
+    redirectButton.addEventListener("click", function() {
+        window.location.href = "{{ url_for('mock') }}";  // Redirect to /mock route using Flask's url_for
+    });  // Redirect to /mock route
+
+
+            })
+            .catch(error => console.error("Error loading job data:", error));
+    </script>
+
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            width: 30%;  /* 3 cards per row */
+            min-width: 250px;
+            max-width: 350px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+
+        .btn {
+            margin-top: 10px;
+            padding: 8px 16px;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+    </style>
+    {% endif %}
+</div>
+{% endblock %}
