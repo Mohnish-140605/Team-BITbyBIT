@@ -1,194 +1,802 @@
 [
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years",
-        "job_link": "Not listed",
+        "title": "Data Scientist within Vehicle Engineering",
+        "company": "Volvo Financial Services",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-within-vehicle-engineering-volvo-asset-finance-india-private-limited-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-3-to-7-years-181224502708",
+        "Compatability": 89
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "Dealersocket-Solera",
+        "location": "Hybrid - Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-dealersocket-solera-bengaluru-3-to-7-years-171224007200",
+        "Compatability": 89
+    },
+    {
+        "title": "Data Analyst",
+        "company": "ExcelR",
+        "location": "Hyderabad, Pune, Bengaluru",
+        "experience": "1-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-excelr-hyderabad-pune-bengaluru-1-to-6-years-181224915726",
+        "Compatability": 87
+    },
+    {
+        "title": "DATA SCIENTIST",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-alp-consulting-limited-bengaluru-3-to-7-years-241224912724",
+        "Compatability": 87
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Codvo",
+        "location": "Mumbai, Delhi / NCR, Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-codvo-ai-mumbai-delhi-ncr-bengaluru-2-to-5-years-291224900857",
+        "Compatability": 87
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Tech Mahindra",
+        "location": "Hybrid - Hyderabad, Pune, Bengaluru",
+        "experience": "6-11 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-tech-mahindra-hyderabad-pune-bengaluru-6-to-11-years-301224001931",
+        "Compatability": 87
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "Regalix",
+        "location": "Bengaluru",
+        "experience": "3-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-marketstar-bengaluru-3-to-4-years-031224504476",
+        "Compatability": 87
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Precision Medicine Group",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "1-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-precision-aq-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-1-to-2-years-261224501135",
+        "Compatability": 86
+    },
+    {
+        "title": "Analyst, Data Privacy- Bangalore Location Only",
+        "company": "Axa Xl",
+        "location": "Hybrid - Bengaluru(Varthur +2)",
+        "experience": "2-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-analyst-data-privacy-bangalore-location-only-axa-xl-bengaluru-2-to-4-years-060924017364",
+        "Compatability": 86
+    },
+    {
+        "title": "Data Analytics & Insights Managed services Professional",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "15-23 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analytics-insights-managed-services-professional-athena-consultancy-services-bengaluru-15-to-23-years-231224912946",
+        "Compatability": 86
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Novel Office",
+        "location": "Bangalore Rural",
+        "experience": "1-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-novel-office-bangalore-rural-1-to-2-years-201224906227",
         "Compatability": 85
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years",
-        "job_link": "Not listed",
+        "title": "Client Data Analyst",
+        "company": "JPMorgan Chase Bank",
+        "location": "Bengaluru",
+        "experience": "5-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-client-data-analyst-jpmorgan-chase-bengaluru-5-to-8-years-241224505862",
+        "Compatability": 85
+    },
+    {
+        "title": "Data Scientist & Experimentation Analyst",
+        "company": "Encora",
+        "location": "Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-experimentation-analyst-encora-bengaluru-0-to-5-years-241224504875",
+        "Compatability": 85
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Deltek",
+        "location": "Remote",
+        "experience": "7-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-deltek-bengaluru-7-to-10-years-161224008744",
+        "Compatability": 85
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "Head Infotech India",
+        "location": "Bengaluru",
+        "experience": "1-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-head-infotech-bengaluru-1-to-5-years-150224500615",
+        "Compatability": 85
+    },
+    {
+        "title": "E-Commerce Business Intelligence Analyst",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-e-commerce-business-intelligence-analyst-wn-infotech-noida-pune-gurugram-bengaluru-2-to-5-years-271224500475",
+        "Compatability": 85
+    },
+    {
+        "title": "Business Intelligence Senior Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "4-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-senior-analyst-ideslabs-private-limited-bengaluru-4-to-8-years-281224908750",
+        "Compatability": 85
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Sutara Learning Foundation",
+        "location": "Bengaluru(Bannerghatta Road)",
+        "experience": "0-1 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-sutara-learning-foundation-bengaluru-0-to-1-years-141224005355",
+        "Compatability": 84
+    },
+    {
+        "title": "Data Scientist",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-wn-infotech-noida-pune-gurugram-bengaluru-0-to-5-years-261224501488",
+        "Compatability": 84
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Capgemini",
+        "location": "Bengaluru",
+        "experience": "4-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-capgemini-technology-services-india-limited-bengaluru-4-to-6-years-231224903546",
+        "Compatability": 84
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-alp-consulting-limited-bengaluru-3-to-7-years-281124918732",
         "Compatability": 83
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years",
-        "job_link": "Not listed",
+        "title": "Data Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-sigma-allied-services-private-limited-bengaluru-2-to-5-years-051224915849",
+        "Compatability": 83
+    },
+    {
+        "title": "Data Privacy Analyst",
+        "company": "Deutsche Bank",
+        "location": "Bengaluru",
+        "experience": "3-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-privacy-analyst-deutsche-bank-ag-bengaluru-3-to-6-years-261224902297",
+        "Compatability": 83
+    },
+    {
+        "title": "Data Scientist (PhD)",
+        "company": "Aeries Technology",
+        "location": "Remote",
+        "experience": "0 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-phd-aeries-technology-bengaluru-0-to-0-years-171224014541",
+        "Compatability": 83
+    },
+    {
+        "title": "AI/ML Engineer/Data Scientist - C2H",
+        "company": "SP Software",
+        "location": "Hybrid - Gurugram, Bengaluru",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-ai-ml-engineer-data-scientist-c2h-sp-software-gurugram-bengaluru-3-to-8-years-271224004021",
+        "Compatability": 83
+    },
+    {
+        "title": "Data Scientist Agronomy & Remote Sensing",
+        "company": "Adroit Solutions",
+        "location": "Bengaluru",
+        "experience": "5-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-agronomy-remote-sensing-bayer-cropscience-ltd-bengaluru-5-to-8-years-241224504499",
+        "Compatability": 83
+    },
+    {
+        "title": "BUSINESS INTELLIGENCE ANALYST II",
+        "company": "TE Connectivity India",
+        "location": "Bengaluru",
+        "experience": "3-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-ii-te-connectivity-india-private-limited-bengaluru-3-to-5-years-161224500313",
+        "Compatability": 83
+    },
+    {
+        "title": "Business Intelligence & Automation Analyst",
+        "company": "3M India",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "6-9 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-automation-analyst-3m-india-ltd-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-6-to-9-years-300924501572",
+        "Compatability": 83
+    },
+    {
+        "title": "Sr. BUSINESS INTELLIGENCE ANALYST",
+        "company": "TE Connectivity India",
+        "location": "Bengaluru",
+        "experience": "8-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-sr-business-intelligence-analyst-te-connectivity-india-private-limited-bengaluru-8-to-10-years-161224500315",
+        "Compatability": 83
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "0-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-wn-infotech-noida-pune-gurugram-bengaluru-0-to-4-years-271224500490",
+        "Compatability": 82
+    },
+    {
+        "title": "Business Intelligence Analysts",
+        "company": "Confidential",
+        "location": "Hyderabad, Pune, Bengaluru",
+        "experience": "5-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analysts-aarons-visions-hyderabad-pune-bengaluru-5-to-10-years-271122000843",
+        "Compatability": 82
+    },
+    {
+        "title": "Data & Business Intelligence Analyst",
+        "company": "Confidential",
+        "location": "Hybrid - Bengaluru, Delhi / NCR, Mumbai (All Areas)",
+        "experience": "0-1 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-business-intelligence-analyst-brown-alligator-bengaluru-delhi-ncr-mumbai-all-areas-0-to-1-years-181224015978",
+        "Compatability": 82
+    },
+    {
+        "title": "Data Protection - Professional",
+        "company": "Infosys",
+        "location": "Bengaluru",
+        "experience": "5-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-protection-professional-infosys-limited-bengaluru-5-to-10-years-281224907620",
+        "Compatability": 81
+    },
+    {
+        "title": "Lead Business Intelligence Analyst",
+        "company": "Silicon Valley Bank",
+        "location": "Hybrid - Bengaluru",
+        "experience": "6-9 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-lead-business-intelligence-analyst-silicon-valley-bank-bengaluru-6-to-9-years-241224018848",
+        "Compatability": 79
+    },
+    {
+        "title": "Data Privacy Analyst",
+        "company": "Deutsche Bank",
+        "location": "Bengaluru",
+        "experience": "3-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-privacy-analyst-deutsche-bank-ag-bengaluru-3-to-6-years-261224902297",
         "Compatability": 78
     },
     {
-        "title": "Data Analyst Information Governance and Quality",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "5-7 years",
-        "job_link": "Not listed",
+        "title": "Graph SQL Data Scientist",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "2-3 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-graph-sql-data-scientist-wn-infotech-noida-pune-gurugram-bengaluru-2-to-3-years-271224500551",
+        "Compatability": 78
+    },
+    {
+        "title": "Senior Business Intelligence Analyst",
+        "company": "AI INDUS",
+        "location": "Bengaluru",
+        "experience": "5-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-senior-business-intelligence-analyst-ai-indus-bengaluru-5-to-6-years-120824502260",
+        "Compatability": 78
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Caliche",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "3-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-caliche-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-3-to-6-years-061124503717",
         "Compatability": 77
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience",
-        "job_link": "Not listed",
+        "title": "Data Scientist",
+        "company": "Calsoft",
+        "location": "Hybrid - Bengaluru",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-calsoft-bengaluru-3-to-8-years-231224012919",
+        "Compatability": 77
+    },
+    {
+        "title": "Client Data Analyst",
+        "company": "JPMorgan Chase Bank",
+        "location": "Bengaluru",
+        "experience": "6-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-client-data-analyst-jpmorgan-chase-bengaluru-6-to-10-years-181224503422",
         "Compatability": 76
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience in a data analysis or reporting role",
-        "job_link": "Not listed",
+        "title": "Data Eng, Mgmt & Governance Analyst",
+        "company": "Accenture",
+        "location": "Bengaluru",
+        "experience": "3-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-eng-mgmt-governance-analyst-accenture-solutions-pvt-ltd-bengaluru-3-to-5-years-261224917549",
         "Compatability": 76
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Here is the experience required for the job:\n\n6-8 years of experience",
-        "job_link": "Not listed",
+        "title": "Data Analyst",
+        "company": "Visionet Systems",
+        "location": "Bengaluru",
+        "experience": "5-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-visionet-systems-private-limited-bengaluru-5-to-7-years-301224003297",
+        "Compatability": 76
+    },
+    {
+        "title": "Data Scientist & Experimentation Analyst",
+        "company": "Encora",
+        "location": "Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-experimentation-analyst-encora-bengaluru-0-to-5-years-241224504875",
+        "Compatability": 76
+    },
+    {
+        "title": "data analyst",
+        "company": "Disha Consultant",
+        "location": "Pune, Chennai, Jaipur, Bengaluru",
+        "experience": "2-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-disha-consultant-pune-chennai-jaipur-bengaluru-2-to-4-years-140621501222",
+        "Compatability": 76
+    },
+    {
+        "title": "Neoload Professional",
+        "company": "Global Pharma Tek",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-neoload-professional-capleo-global-solutions-private-limited-bengaluru-3-to-7-years-281224907992",
+        "Compatability": 76
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "Msi Services",
+        "location": "Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-msi-services-pvt-ltd-bengaluru-2-to-5-years-120423500493",
+        "Compatability": 76
+    },
+    {
+        "title": "Principal Analyst Bus Unit Market Intelligence - Strategic Business",
+        "company": "Globalfoundries",
+        "location": "Bengaluru",
+        "experience": "5-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-principal-analyst-bus-unit-market-intelligence-strategic-business-globalfoundries-engineering-private-limited-bengaluru-5-to-8-years-160924502061",
+        "Compatability": 76
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Klene Paks",
+        "location": "Bengaluru(Bannerghatta Road)",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-klene-paks-bengaluru-3-to-8-years-021224011691",
         "Compatability": 75
     },
     {
-        "title": "Data Analyst Information Governance and Quality",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Here is the experience required for this job:\n\n5+ years",
-        "job_link": "Not listed",
+        "title": "DX _ Sitecore - Professional",
+        "company": "Infosys",
+        "location": "Bengaluru",
+        "experience": "3-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-dx-sitecore-professional-infosys-limited-bengaluru-3-to-4-years-281224907491",
+        "Compatability": 75
+    },
+    {
+        "title": "LLM Data Scientist",
+        "company": "HCLTech",
+        "location": "Hybrid - Noida, Chennai, Bengaluru",
+        "experience": "15-20 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-llm-data-scientist-hcltech-noida-chennai-bengaluru-15-to-20-years-271224007216",
+        "Compatability": 75
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Uplers",
+        "location": "Hybrid - Bengaluru",
+        "experience": "1-3 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-uplers-bengaluru-1-to-3-years-241224004630",
         "Compatability": 74
     },
     {
-        "title": "Data Analyst Information Governance and Quality",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "5-7 years of experience.",
-        "job_link": "Not listed",
+        "title": "Data Informatics Analyst - ETL/Python",
+        "company": "Quadrant Technologies",
+        "location": "Hyderabad, Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-informatics-analyst-etl-python-quadrant-technologies-hyderabad-bengaluru-3-to-7-years-291224901139",
+        "Compatability": 74
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Scrumconnect",
+        "location": "Hybrid - Bengaluru",
+        "experience": "4-9 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-scrumconnect-bengaluru-4-to-9-years-271224016366",
+        "Compatability": 74
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Ericsson",
+        "location": "Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-ericsson-india-global-services-pvt-ltd-bengaluru-2-to-5-years-241224501668",
+        "Compatability": 74
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Calsoft",
+        "location": "Bengaluru",
+        "experience": "4-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-calsoft-bengaluru-4-to-8-years-090824014585",
+        "Compatability": 74
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "company": "Innovatia",
+        "location": "Bengaluru",
+        "experience": "4-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-innovatia-inc-bengaluru-4-to-6-years-040522500596",
+        "Compatability": 74
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Lobotus Technology Private Limited",
+        "location": "Bengaluru",
+        "experience": "3-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-lobotus-technology-private-limited-bengaluru-3-to-5-years-160518500528",
         "Compatability": 73
     },
     {
-        "title": "Data Analyst Information Governance and Quality",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "5-7 years of experience.",
-        "job_link": "Not listed",
+        "title": "Data Analyst/Business Intelligence Intern",
+        "company": "Cloud Counselage",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "0-1 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-business-intelligence-intern-cloud-counselage-pvt-ltd-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-0-to-1-years-210824501840",
+        "Compatability": 73
+    },
+    {
+        "title": "Senior Business Intelligence Analyst",
+        "company": "AI INDUS",
+        "location": "Bengaluru",
+        "experience": "3-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-senior-business-intelligence-analyst-ai-indus-bengaluru-3-to-6-years-061224503580",
         "Compatability": 72
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience.",
-        "job_link": "Not listed",
+        "title": "Data Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-alp-consulting-limited-bengaluru-3-to-7-years-281124918732",
         "Compatability": 71
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience",
-        "job_link": "Not listed",
+        "title": "Data Analyst",
+        "company": "Novel Office",
+        "location": "Bangalore Rural",
+        "experience": "1-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-novel-office-bangalore-rural-1-to-2-years-201224906227",
         "Compatability": 71
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience",
-        "job_link": "Not listed",
+        "title": "Data Analytics & Insights Professional",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analytics-insights-professional-athena-consultancy-services-bengaluru-3-to-6-years-191224904693",
         "Compatability": 71
     },
     {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years",
-        "job_link": "Not listed",
+        "title": "Data Analytics Professional",
+        "company": "Diverse Lynx",
+        "location": "Bengaluru",
+        "experience": "2-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analytics-professional-diverse-lynx-bengaluru-2-to-6-years-120523500712",
         "Compatability": 71
+    },
+    {
+        "title": "Business Intelligence Analyst/BI Analyst",
+        "company": "Savantys Solutions",
+        "location": "Hyderabad, Bengaluru",
+        "experience": "5-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-analyst-bi-analyst-savantys-solutions-hyderabad-bengaluru-5-to-10-years-011122500816",
+        "Compatability": 71
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Milestone Online Technology",
+        "location": "Hybrid - Hyderabad, Chennai, Bengaluru",
+        "experience": "0-1 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-milestone-online-technology-hyderabad-chennai-bengaluru-0-to-1-years-181224004117",
+        "Compatability": 67
+    },
+    {
+        "title": "Data Informatics Analyst - ETL/Python",
+        "company": "Quadrant Technologies",
+        "location": "Hyderabad, Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-informatics-analyst-etl-python-quadrant-technologies-hyderabad-bengaluru-3-to-7-years-291224901139",
+        "Compatability": 67
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-alp-consulting-limited-bengaluru-3-to-7-years-281124918523",
+        "Compatability": 67
+    },
+    {
+        "title": "Data Analyst",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "0-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-wn-infotech-noida-pune-gurugram-bengaluru-0-to-4-years-271224500415",
+        "Compatability": 67
+    },
+    {
+        "title": "Data & Analytics Professional",
+        "company": "Krios Info Solution Is",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analytics-professional-krios-info-solution-pvt-ltd-is-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-2-to-5-years-271224503898",
+        "Compatability": 67
+    },
+    {
+        "title": "Data Analytics Professional",
+        "company": "Introlligent.Inc",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "2-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analytics-professional-introlligent-inc-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-2-to-5-years-090824501376",
+        "Compatability": 67
+    },
+    {
+        "title": "Analytics Professional",
+        "company": "Compegence",
+        "location": "Bengaluru",
+        "experience": "1-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-analytics-professional-compegence-bengaluru-1-to-4-years-161024503876",
+        "Compatability": 67
+    },
+    {
+        "title": "Google Analytics Professional",
+        "company": "Phygital Insights",
+        "location": "Bengaluru",
+        "experience": "5-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-google-analytics-professional-phygital-insights-bengaluru-5-to-10-years-020124501749",
+        "Compatability": 67
     },
     {
         "title": "Data Scientist",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Based on the job description, here is the experience required:\n\n* Experience: Not specified",
-        "job_link": "Not listed",
-        "Compatability": 71
-    },
-    {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience",
-        "job_link": "Not listed",
-        "Compatability": 69
-    },
-    {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience.",
-        "job_link": "Not listed",
-        "Compatability": 67
-    },
-    {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Here is the experience required for the job:\n\n6-8 years",
-        "job_link": "Not listed",
-        "Compatability": 67
-    },
-    {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience in data analysis or reporting role",
-        "job_link": "Not listed",
-        "Compatability": 67
-    },
-    {
-        "title": "Lead Reporting Analyst",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "6-8 years of experience",
-        "job_link": "Not listed",
+        "company": "Infosys",
+        "location": "Bengaluru",
+        "experience": "16-18 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-infosys-limited-bengaluru-16-to-18-years-261224923853",
         "Compatability": 67
     },
     {
         "title": "Data Scientist",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Based on the text, the required experience for this job is:\n\n* Experience developing machine learning models and services\n* Experience programming in Python\n* Experience with CI/CD for ML Ops through YAML pipelines (preferred, but not required)",
-        "job_link": "Not listed",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-alp-consulting-limited-bengaluru-3-to-7-years-241224911851",
+        "Compatability": 67
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Incanus Technologies",
+        "location": "Hybrid - Pune, Bengaluru, Delhi / NCR",
+        "experience": "1-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-incanus-technologies-pune-bengaluru-delhi-ncr-1-to-6-years-260324004535",
+        "Compatability": 65
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Novel Office",
+        "location": "Bengaluru",
+        "experience": "1-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-novel-office-bengaluru-1-to-2-years-201224905977",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-alp-consulting-limited-bengaluru-3-to-7-years-281124918523",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "0-4 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-wn-infotech-noida-pune-gurugram-bengaluru-0-to-4-years-271224500415",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst",
+        "company": "NS Legal Samadhann India",
+        "location": "Gurugram, Bengaluru, Mumbai (All Areas)",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-ns-legal-samadhann-india-gurugram-bengaluru-mumbai-all-areas-3-to-8-years-291224002547",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst",
+        "company": "Incanus Technologies",
+        "location": "Hybrid - Pune, Bengaluru, Delhi / NCR",
+        "experience": "1-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-incanus-technologies-pune-bengaluru-delhi-ncr-1-to-6-years-260324004535",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst",
+        "company": "ExcelR",
+        "location": "Hyderabad, Pune, Bengaluru",
+        "experience": "1-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-excelr-hyderabad-pune-bengaluru-1-to-6-years-181224915726",
+        "Compatability": 64
+    },
+    {
+        "title": "Adobe Analytics Professional",
+        "company": "Systechcorp Inc",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "2-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-adobe-analytics-professional-systechcorp-inc-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-2-to-6-years-161224500991",
+        "Compatability": 64
+    },
+    {
+        "title": "Web Analytics & UI Professional",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-web-analytics-ui-professional-mount-talent-consulting-private-limited-bengaluru-3-to-5-years-171224919967",
+        "Compatability": 64
+    },
+    {
+        "title": "Google Analytics Professional",
+        "company": "Diverse Lynx",
+        "location": "Bengaluru",
+        "experience": "1-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-google-analytics-professional-diverse-lynx-bengaluru-1-to-5-years-170723500333",
+        "Compatability": 64
+    },
+    {
+        "title": "Load runner, Dynatrace Professional",
+        "company": "Global Pharma Tek",
+        "location": "Bengaluru",
+        "experience": "2-6 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-load-runner-dynatrace-professional-capleo-global-solutions-private-limited-bengaluru-2-to-6-years-281224908753",
+        "Compatability": 64
+    },
+    {
+        "title": "DX _ Android Kotlin - Professional",
+        "company": "Infosys",
+        "location": "Bengaluru",
+        "experience": "5-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-dx-android-kotlin-professional-infosys-limited-bengaluru-5-to-7-years-281224907567",
+        "Compatability": 64
+    },
+    {
+        "title": "Business Intelligence Consultant",
+        "company": "WN Infotech",
+        "location": "Noida, Pune, Gurugram, Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-business-intelligence-consultant-wn-infotech-noida-pune-gurugram-bengaluru-0-to-5-years-271224500293",
+        "Compatability": 64
+    },
+    {
+        "title": "Data Analyst -(WFO - HYD)",
+        "company": "Nxtwave Disruptive Technologies",
+        "location": "Hyderabad, Chennai, Bengaluru",
+        "experience": "0-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-wfo-hyd-nxtwave-disruptive-technologies-hyderabad-chennai-bengaluru-0-to-2-years-271124009998",
         "Compatability": 63
     },
     {
-        "title": "Data Scientist",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Based on the data, here is the experience required for the job:\n\n1. Experience developing machine learning models and services: Needed\n2. Experience with CI/CD for ML Ops through YAML pipelines: Preferred\n3. Experience programming in Python: Needed",
-        "job_link": "Not listed",
+        "title": "Data Scientist- Machine Learning & Data Analytics",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-machine-learning-data-analytics-alp-consulting-limited-bengaluru-3-to-7-years-281124919542",
+        "Compatability": 63
+    },
+    {
+        "title": "Data Analyst",
+        "company": "NS Legal Samadhann India",
+        "location": "Gurugram, Bengaluru, Mumbai (All Areas)",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-ns-legal-samadhann-india-gurugram-bengaluru-mumbai-all-areas-3-to-8-years-291224002547",
+        "Compatability": 62
+    },
+    {
+        "title": "BigData Analytics Professional",
+        "company": "Huntertech Ventures",
+        "location": "Bengaluru",
+        "experience": "1-3 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-bigdata-analytics-professional-hunter-tech-ventures-pvt-ltd-bengaluru-1-to-3-years-250624502822",
+        "Compatability": 62
+    },
+    {
+        "title": "Power Analytics Professional",
+        "company": "Phygital Insights",
+        "location": "Bengaluru",
+        "experience": "6-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-power-analytics-professional-phygital-insights-bengaluru-6-to-8-years-020124501751",
+        "Compatability": 62
+    },
+    {
+        "title": "Data Scientist // 3 yrs plus // Bangalore",
+        "company": "2coms",
+        "location": "Bengaluru",
+        "experience": "6-11 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-3-yrs-plus-bangalore-2coms-bengaluru-6-to-11-years-231224006929",
+        "Compatability": 61
+    },
+    {
+        "title": "Data Verification Analyst",
+        "company": "Foundation Ai",
+        "location": "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-verification-analyst-foundation-ai-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-0-to-5-years-101224501433",
         "Compatability": 60
     },
     {
-        "title": "Data Scientist",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Here is the experience required for the job:\n\n* 0 years of experience in developing machine learning models and services (no experience)\n* 0 years of experience with CI/CD for ML Ops through YAML pipelines (no experience)\n* 0 years of experience programming in Python (no experience)",
-        "job_link": "Not listed",
-        "Compatability": 43
+        "title": "Data Eng, Mgmt & Governance Analyst",
+        "company": "Accenture",
+        "location": "Bengaluru",
+        "experience": "3-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-eng-mgmt-governance-analyst-accenture-solutions-pvt-ltd-bengaluru-3-to-5-years-261224917549",
+        "Compatability": 54
     },
     {
-        "title": "Data Scientist",
-        "company": "Not listed",
-        "location": "Bangalore, Karnataka",
-        "qualifications": "Here is the experience requirement extracted from the text:\n\n* Experience: Not disclosed",
-        "job_link": "Not listed",
+        "title": "Data Analyst",
+        "company": "Novel Office",
+        "location": "Bengaluru",
+        "experience": "1-2 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-analyst-novel-office-bengaluru-1-to-2-years-201224905977",
+        "Compatability": 54
+    },
+    {
+        "title": "Full Stack - Sitecore Professional",
+        "company": "Sourceved",
+        "location": "Mumbai, Delhi / NCR, Bengaluru",
+        "experience": "5-10 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-full-stack-sitecore-professional-sourceved-mumbai-delhi-ncr-bengaluru-5-to-10-years-291224901111",
+        "Compatability": 53
+    },
+    {
+        "title": "Data Scientist & Experimentation Analyst",
+        "company": "Encora",
+        "location": "Bengaluru",
+        "experience": "0-5 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-data-scientist-experimentation-analyst-encora-bengaluru-0-to-5-years-241224504875",
+        "Compatability": 47
+    },
+    {
+        "title": "DX _ Android Jetpack - Professional",
+        "company": "Infosys",
+        "location": "Bengaluru",
+        "experience": "5-7 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-dx-android-jetpack-professional-infosys-limited-bengaluru-5-to-7-years-281224907117",
         "Compatability": 42
+    },
+    {
+        "title": "Tableau Spend Analytics professional",
+        "company": "Leading Client",
+        "location": "Bengaluru",
+        "experience": "3-8 Yrs",
+        "job_link": "https://www.naukri.com/job-listings-tableau-spend-analytics-professional-net2source-llp-bengaluru-3-to-8-years-191224910209",
+        "Compatability": 22
     }
 ]
