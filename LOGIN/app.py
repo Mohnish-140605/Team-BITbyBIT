@@ -46,7 +46,10 @@ def allowed_file(filename):
 
 @app.route('/')
 def index():
-    return redirect(url_for('login'))
+    # Check if the current request URL contains the port `5000`
+    if request.url.startswith('http://127.0.0.1:5000'):
+        return redirect(url_for('signup'))
+    return 'Welcome to the Home Page'
 
 @app.route('/mock')
 def mock():
