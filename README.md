@@ -33,13 +33,14 @@ Every project is built with a sprinkle of:
 
 ## 🧑‍💻 Meet the Dream Team
 
+
 | Name                  | Superpower                |
 |------------------------|----------------------------|
-| Purab Singh Rajpurohit | The Code Commander ⚡       |
-| Skanda Kumar           | Bug Buster 🐛               |
-| Shamitha Reddy N       | Frontend Wizard ✨           |
-| Hampana S S            | Backend Architect 🛠️        |
-| Mohnish G Naidu        | Idea Generator 💭            |
+| Purab Singh Rajpurohit |   Backend Developer ⚙️       |
+| Skanda Kumar           |   Quality Assurance & Testing 🧪               |
+| Shamitha Reddy N       |   Frontend Developer 🎨         |
+| Hampana S S            |   Database Manager 🗄️        |
+| Mohnish G Naidu        |   Team Leader & Project Coordinator 🤝            |
 
 > Together, we build. Bit by bit. Day by day. 💪
 
