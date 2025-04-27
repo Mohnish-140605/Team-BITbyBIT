@@ -31,7 +31,7 @@ Every project is built with a sprinkle of:
 
 ---
 
-## 🧑‍💻 Meet the Dream Team
+## 🧑‍💻 Meet the  Team
 
 
 | Name                  | Superpower                |
