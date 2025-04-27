@@ -110,7 +110,4 @@ You're free to use, modify, and share — just remember to give a little credit.
 > *And that's exactly how we build: **Bit by BIT!** 🚀*
 
 
-Would you also like a **"cool badge section"**(e.g., ![GitHub repo stars](https://img.shields.io/github/stars/Mohnish-140605/Team-BITbyBIT)? ⭐)  
-I can add that too to make it even cooler! 🔥🎨
 
-Want me to show it? 🚀
