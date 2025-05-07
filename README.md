@@ -38,7 +38,7 @@ Every project is built with a sprinkle of:
 |------------------------|----------------------------|
 | Purab Singh Rajpurohit |   Backend Developer ⚙️       |
 | Skanda Kumar           |   Quality Assurance & Testing 🧪               |
-| Shamitha Reddy N       |   Frontend Developer 🎨         |
+| Shamitha Reddy N       |   Frontend Developer 🎨          |
 | Hampana S S            |   Database Manager 🗄️        |
 | Mohnish G Naidu        |   Team Leader & Project Coordinator 🤝            |
 
